@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:id="@+id/keyboard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="定义键盘1"
+        android:inputType="number"
+        android:singleLine="true"
+
+        />
+
+    <Button
+        android:id="@+id/keyboard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="自定义键盘2"
+        android:textSize="14sp" />
+</LinearLayout>
+

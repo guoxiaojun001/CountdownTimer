@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CountdownTimer.iml" filepath="$PROJECT_DIR$/CountdownTimer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customkeyboard/customkeyboard.iml" filepath="$PROJECT_DIR$/customkeyboard/customkeyboard.iml" />
     </modules>
   </component>
 </project>

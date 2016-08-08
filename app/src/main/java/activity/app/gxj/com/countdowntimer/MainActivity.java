@@ -12,7 +12,6 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button timer;
-    private Button keyboard;
 
     private Intent intent;
 
@@ -22,10 +21,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         timer = (Button) findViewById(R.id.timer);
-        keyboard = (Button) findViewById(R.id.keyboard);
 
         timer.setOnClickListener(this);
-        keyboard.setOnClickListener(this);
 
     }
 
@@ -34,11 +31,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
 
             case R.id.timer:
-                intent = new Intent(this,CountDownActivity.class);
-                startActivity(intent);
-                break;
-
-            case R.id.keyboard:
                 intent = new Intent(this,CountDownActivity.class);
                 startActivity(intent);
                 break;
